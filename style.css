@@ -1,0 +1,34 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+
+  text-shadow: 2px 2px #ff0000;
+  background-image: linear-gradient(to right, yellow, orange);
+}
+
+img {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+  transform: rotate(120deg);
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+#mango1 {
+  margin: 50px;
+}
+
+#mango2 {
+  margin: 50px;
+}
+
+#mango2img {
+  height: 240px;
+  width: 360px;
+}
