@@ -38,3 +38,7 @@ div {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
 }
+
+.calculateButton {
+  border-radius: 50%;
+}
