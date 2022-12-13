@@ -15,7 +15,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1 id="title">Mangoes</h1>
+    <h1 id="title">Mangoes and Interest Rates</h1>
     <div id="mango1">
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHOAF-7AeKUa3xWL23z8kPNi75an0KeD7hug&usqp=CAU"
@@ -27,12 +27,31 @@
         src="https://parade.com/.image/t_share/MTkwNTgxMzA0MzA3ODIwNDEy/mango-benefits-jpg.jpg"
       />
     </div>
+    <h3 class="grid-item1">Interest Calculator</h3>
 
-    <input type="password" />
-    <input type="radio" name="" id="" />
-    <input type="radio" name="" id="" />
+    <form class="grid-container" id="Calculator">
+      <p class="grid-item2">Principal:</p>
+      <p />
+      <input type="number" id="Principal" />
+      <p class="grid-item3">Interest Rate:</p>
+      <p />
+      <input type="number" id="InterestRate" />
+      <p class="grid-item4">Times Compounded:</p>
+      <p />
+      <input type="number" id="Compounded" />
+      <p class="grid-item5">Number of Years:</p>
+      <p />
+      <input type="number" id="Years" />
+      <p class="grid-item6">Profit:</p>
+      <p id="Profit"></p>
+      <p class="grid-item7">Total:</p>
+      <p id="Total"></p>
+      <p>Hit the Button -></p>
+      <button type="submit">Calculate</button>
+    </form>
+
     <footer>
-      <a href="https://codesandbox.io/s/restless-monad-wtlb6h?file=/index.html"
+      <a href="https://codesandbox.io/s/github/bbazile/MangoSpins"
         >Source Code</a
       >
     </footer>
