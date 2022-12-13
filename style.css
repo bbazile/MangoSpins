@@ -32,3 +32,9 @@ div {
   height: 240px;
   width: 360px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+}
